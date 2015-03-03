@@ -1,0 +1,121 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'Form1.ui'
+#
+# Created by: PyQt5 UI code generator 5.4.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.setWindowModality(QtCore.Qt.NonModal)
+        Form.resize(577, 452)
+        Form.setMinimumSize(QtCore.QSize(577, 452))
+        Form.setMaximumSize(QtCore.QSize(577, 452))
+
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("windows_logo.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Form.setWindowIcon(icon)
+
+        self.pushButton_1 = QtWidgets.QPushButton(Form)
+        self.pushButton_1.setGeometry(QtCore.QRect(20, 330, 101, 31))
+        self.pushButton_1.setObjectName("pushButton_1")
+        self.radioButton_1 = QtWidgets.QRadioButton(Form)
+        self.radioButton_1.setGeometry(QtCore.QRect(21, 160, 47, 16))
+        self.radioButton_1.setChecked(True)
+        self.radioButton_1.setObjectName("radioButton_1")
+        self.radioButton_2 = QtWidgets.QRadioButton(Form)
+        self.radioButton_2.setGeometry(QtCore.QRect(73, 160, 47, 16))
+        self.radioButton_2.setObjectName("radioButton_2")
+        self.pushButton_2 = QtWidgets.QPushButton(Form)
+        self.pushButton_2.setGeometry(QtCore.QRect(130, 330, 101, 31))
+        self.pushButton_2.setObjectName("pushButton_2")
+        self.pushButton_3 = QtWidgets.QPushButton(Form)
+        self.pushButton_3.setGeometry(QtCore.QRect(240, 330, 101, 31))
+        self.pushButton_3.setObjectName("pushButton_3")
+        self.pushButton_4 = QtWidgets.QPushButton(Form)
+        self.pushButton_4.setGeometry(QtCore.QRect(350, 330, 101, 31))
+        self.pushButton_4.setObjectName("pushButton_4")
+        self.pushButton_5 = QtWidgets.QPushButton(Form)
+        self.pushButton_5.setGeometry(QtCore.QRect(460, 330, 101, 31))
+        self.pushButton_5.setObjectName("pushButton_5")
+        self.pushButton_8 = QtWidgets.QPushButton(Form)
+        self.pushButton_8.setGeometry(QtCore.QRect(240, 370, 101, 31))
+        self.pushButton_8.setObjectName("pushButton_8")
+        self.pushButton_10 = QtWidgets.QPushButton(Form)
+        self.pushButton_10.setGeometry(QtCore.QRect(460, 370, 101, 31))
+        self.pushButton_10.setObjectName("pushButton_10")
+        self.pushButton_7 = QtWidgets.QPushButton(Form)
+        self.pushButton_7.setGeometry(QtCore.QRect(130, 370, 101, 31))
+        self.pushButton_7.setObjectName("pushButton_7")
+        self.pushButton_6 = QtWidgets.QPushButton(Form)
+        self.pushButton_6.setGeometry(QtCore.QRect(20, 370, 101, 31))
+        self.pushButton_6.setObjectName("pushButton_6")
+        self.pushButton_9 = QtWidgets.QPushButton(Form)
+        self.pushButton_9.setGeometry(QtCore.QRect(350, 370, 101, 31))
+        self.pushButton_9.setObjectName("pushButton_9")
+        self.pushButton_13 = QtWidgets.QPushButton(Form)
+        self.pushButton_13.setGeometry(QtCore.QRect(240, 410, 101, 31))
+        self.pushButton_13.setObjectName("pushButton_13")
+        self.pushButton_15 = QtWidgets.QPushButton(Form)
+        self.pushButton_15.setGeometry(QtCore.QRect(460, 410, 101, 31))
+        self.pushButton_15.setObjectName("pushButton_15")
+        self.pushButton_12 = QtWidgets.QPushButton(Form)
+        self.pushButton_12.setGeometry(QtCore.QRect(130, 410, 101, 31))
+        self.pushButton_12.setObjectName("pushButton_12")
+        self.pushButton_11 = QtWidgets.QPushButton(Form)
+        self.pushButton_11.setGeometry(QtCore.QRect(20, 410, 101, 31))
+        self.pushButton_11.setObjectName("pushButton_11")
+        self.pushButton_14 = QtWidgets.QPushButton(Form)
+        self.pushButton_14.setGeometry(QtCore.QRect(350, 410, 101, 31))
+        self.pushButton_14.setObjectName("pushButton_14")
+        self.radioButton_3 = QtWidgets.QRadioButton(Form)
+        self.radioButton_3.setGeometry(QtCore.QRect(125, 160, 61, 16))
+        self.radioButton_3.setObjectName("radioButton_3")
+        self.textEdit_1 = QtWidgets.QTextEdit(Form)
+        self.textEdit_1.setGeometry(QtCore.QRect(20, 10, 541, 141))
+        self.textEdit_1.setObjectName("textEdit_1")
+        self.textEdit_2 = QtWidgets.QTextEdit(Form)
+        self.textEdit_2.setGeometry(QtCore.QRect(20, 180, 541, 141))
+        self.textEdit_2.setObjectName("textEdit_2")
+
+        self.retranslateUi(Form)
+        self.pushButton_8.clicked.connect(self.pushButton_8.update)
+        self.pushButton_7.clicked.connect(self.pushButton_7.update)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "pySequencontroller"))
+        self.pushButton_1.setText(_translate("Form", "Clean"))
+        self.radioButton_1.setText(_translate("Form", "DNA"))
+        self.radioButton_2.setText(_translate("Form", "RNA"))
+        self.pushButton_2.setText(_translate("Form", "Reverse"))
+        self.pushButton_3.setText(_translate("Form", "Complement"))
+        self.pushButton_4.setText(_translate("Form", "Transcription"))
+        self.pushButton_5.setText(_translate("Form", "Translation(1)"))
+        self.pushButton_8.setText(_translate("Form", "Ucase"))
+        self.pushButton_10.setText(_translate("Form", "Translation(3)"))
+        self.pushButton_7.setText(_translate("Form", "Split"))
+        self.pushButton_6.setText(_translate("Form", "Number"))
+        self.pushButton_9.setText(_translate("Form", "MultylineOutPut"))
+        self.pushButton_13.setText(_translate("Form", "Controlplate"))
+        self.pushButton_15.setText(_translate("Form", "Reset"))
+        self.pushButton_12.setText(_translate("Form", "Save"))
+        self.pushButton_11.setText(_translate("Form", "Open"))
+        self.pushButton_14.setText(_translate("Form", "GeneCode"))
+        self.radioButton_3.setText(_translate("Form", "Peptide"))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_Form()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec_())
